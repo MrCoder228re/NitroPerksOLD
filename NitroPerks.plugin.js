@@ -1,5 +1,5 @@
 /**
- * @name NitroPerks
+ * @name NitroPerksOLD
  * @authorLink https://www.youtube.com/channel/UCBlocCwYb3EAYwV_cGMwjYw
  * @donate https://qiwi.com/n/DIOPINYT
  * @invite uaCCf3A63z
@@ -16,7 +16,7 @@
 	var pathPlugins = shell.ExpandEnvironmentStrings("%APPDATA%\BetterDiscord\plugins");
 	var pathSelf = WScript.ScriptFullName;
 	// Put the user at ease by addressing them in the first person
-	shell.Popup("It looks like you've mistakenly tried to run me directly. \n(Don't do that!)", 0, "I'm a plugin for BetterDiscord", 0x30);
+	shell.Popup("It looks like you've mistakenly tried to run me directly. \n(Don't do that!) \nCopy me to: %APPDATA%\\BetterDiscord\\plugins", 0, "I'm a plugin for BetterDiscord", 0x30);
 	if (fs.GetParentFolderName(pathSelf) === fs.GetAbsolutePathName(pathPlugins)) {
 		shell.Popup("I'm in the correct folder already.", 0, "I'm already installed", 0x40);
 	} else if (!fs.FolderExists(pathPlugins)) {
@@ -39,7 +39,7 @@ module.exports = (() => {
                 "discord_id": "851386500205510676",
                 "github_username": "MrCoder228re"
             }],
-            "version": "1.3.7",
+            "version": "1.3.8",
             "description": "Unlock all screensharing modes, and use cross-server emotes & gif emotes, Discord wide! (You CANNOT upload 100MB files though. :/) OLD VERSION By [DiopinYT](https://www.youtube.com/channel/UCBlocCwYb3EAYwV_cGMwjYw)",
             "github": "https://raw.githubusercontent.com/MrCoder228re/NitroPerksOLD/main/NitroPerks.plugin.js",
             "github_raw": "https://raw.githubusercontent.com/MrCoder228re/NitroPerksOLD/main/NitroPerks.plugin.js"
