@@ -1,8 +1,11 @@
 /**
  * @name NitroPerks
- * @website https://github.com/respecting/NitroPerks
- * @source https://raw.githubusercontent.com/respecting/NitroPerks/main/NitroPerks.plugin.js
- * @updateUrl https://raw.githubusercontent.com/respecting/NitroPerks/main/NitroPerks.plugin.js
+ * @authorLink https://www.youtube.com/channel/UCBlocCwYb3EAYwV_cGMwjYw
+ * @donate https://qiwi.com/n/DIOPINYT
+ * @invite uaCCf3A63z
+ * @website https://github.com/MrCoder228re/NitroPerksOLD
+ * @source https://raw.githubusercontent.com/MrCoder228re/NitroPerksOLD/main/NitroPerks.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/MrCoder228re/NitroPerksOLD/main/NitroPerks.plugin.js
  */
 /*@cc_on
 @if (@_jscript)
@@ -30,16 +33,16 @@
 module.exports = (() => {
     const config = {
         "info": {
-            "name": "NitroPerks",
+            "name": "NitroPerksOLD",
             "authors": [{
-                "name": "lemons",
-                "discord_id": "407348579376693260",
-                "github_username": "respecting"
+                "name": "DiopinYT",
+                "discord_id": "851386500205510676",
+                "github_username": "MrCoder228re"
             }],
-            "version": "1.3.6",
-            "description": "Unlock all screensharing modes, and use cross-server emotes & gif emotes, Discord wide! (You CANNOT upload 100MB files though. :/)",
-            "github": "https://github.com/respecting/NitroPerks",
-            "github_raw": "https://raw.githubusercontent.com/respecting/NitroPerks/main/NitroPerks.plugin.js"
+            "version": "1.3.7",
+            "description": "Unlock all screensharing modes, and use cross-server emotes & gif emotes, Discord wide! (You CANNOT upload 100MB files though. :/) OLD VERSION By [DiopinYT](https://www.youtube.com/channel/UCBlocCwYb3EAYwV_cGMwjYw)",
+            "github": "https://raw.githubusercontent.com/MrCoder228re/NitroPerksOLD/main/NitroPerks.plugin.js",
+            "github_raw": "https://raw.githubusercontent.com/MrCoder228re/NitroPerksOLD/main/NitroPerks.plugin.js"
         },
         "main": "NitroPerks.plugin.js"
     };
